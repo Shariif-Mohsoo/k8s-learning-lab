@@ -12,14 +12,17 @@ Think of it like giving instructions to a robot manager 🤖 who runs your app o
 
 ---
 
+This is a simple Pod for the Grade Submission Portal frontend.
+
+```yaml
 apiVersion: v1
 kind: Pod
 metadata:
-name: grade-submission-portal
-labels:
-app.kubernetes.io/name: grade-submission
-app.kubernetes.io/component: frontend
-app.kubernetes.io/instance: grade-submission-portal
+  name: grade-submission-portal
+  labels:
+    app.kubernetes.io/name: grade-submission
+    app.kubernetes.io/component: frontend
+    app.kubernetes.io/instance: grade-submission-portal
 
 # 🏫 Step-by-Step Explanation
 
@@ -196,3 +199,4 @@ This is the **first step** to deploying real applications like:
 - School systems
 - Web apps
 - AI-powered applications (useful for FYP projects)
+```

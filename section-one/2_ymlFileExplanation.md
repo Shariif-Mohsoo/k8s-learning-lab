@@ -10,7 +10,7 @@ Before, we only created the box (Pod).
 Now, we are putting the **real app inside the box** 📦🚀
 
 ---
-
+```yaml
 spec:
 containers:
 
