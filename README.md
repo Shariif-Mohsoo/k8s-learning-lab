@@ -38,19 +38,6 @@ The main goal of this repository is to master container orchestration and deploy
 * Minikube / Kind
 * Linux (Basic Commands)
 
-## 📂 Repository Structure
-
-kubernetes-learning-journey/
-│── notes/
-│── pods/
-│── deployments/
-│── services/
-│── ingress/
-│── configmaps-secrets/
-│── projects/
-│── practice-labs/
-│── README.md
-
 ## 🚀 Learning Approach
 
 I am following a hands-on learning strategy:
